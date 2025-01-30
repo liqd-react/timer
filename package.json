@@ -1,0 +1,27 @@
+{
+  "name": "@liqd-react/timer",
+  "version": "0.0.1",
+  "description": "",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "dist/timer.js",
+  "types": "dist/timer.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "version": "rm -rf dist && tsc -c && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqd-react/timer.git"
+  },
+  "dependencies": {
+    "@liqd-js/heap": "^1.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
